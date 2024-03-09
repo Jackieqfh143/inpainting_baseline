@@ -1,0 +1,662 @@
+AoTGAN:
+    Title: 'Aggregated Contextual Transformations for High-Resolution Image Inpainting'
+    Source: TVCG 2022
+    Code: https://github.com/researchmm/AOT-GAN-for-Inpainting.git
+    Paper: https://arxiv.org/pdf/2104.01431v1.pdf
+    Pluralistic: False
+    512:
+        Param: 15.201
+        FLOPs: 145.77
+    256:
+        Param: 15.201
+        FLOPs: 145.77
+
+CoModGAN:  
+    Title: 'Large Scale Image Completion via Co-Modulated Generative Adversarial Networks'
+    Source: ICLR 2021
+    Code: https://github.com/zsyzzsoft/co-mod-gan.git
+    Papaer: https://arxiv.org/pdf/2103.10428.pdf
+    Pluralistic: True
+    512:
+        Param: 79.79
+        FLOPs: 121.09
+    256:
+        Param: 79.17
+        FLOPs: 91.27
+
+DeepFillv2:
+    Title: 'Free-Form Image Inpainting with Gated Convolution'
+    Source: ICCV 2019 Oral
+    Code: https://github.com/JiahuiYu/generative_inpainting.git
+    Paper: https://arxiv.org/abs/1806.03589
+    Pluralistic: False
+    256:
+        Param: 4.052
+        FLOPs: 283.21
+
+EC:
+    Title: 'EdgeConnect: Generative Image Inpainting with Adversarial Edge Learning'
+    Source: ICCV 2019
+    Code: https://github.com/knazeri/edge-connect.git
+    Paper: https://arxiv.org/abs/1901.00212
+    Pluralistic: False
+    256:
+        Param: 21.536
+        FLOPs: 245.07
+
+MADF:
+    Title: 'Image Inpainting by End-to-End Cascaded Refinement with Mask Awareness'
+    Source: TIP 2021
+    Code: https://github.com/MADF-inpainting/Pytorch-MADF.git
+    Paper:  https://arxiv.org/pdf/2104.13743.pdf
+    Pluralistic: False
+    256:
+        Param: 91.85
+        FLOPs:  85.141
+
+PIC:
+    Title: 'Pluralistic Image Completion'
+    Source: CVPR 2019
+    Code: https://github.com/lyndonzheng/Pluralistic-Inpainting.git
+    Paper:  https://arxiv.org/pdf/1903.04227.pdf
+    Pluralistic: True
+    256:
+        Param: 6.035
+        FLOPs: 18.14
+
+DSI:
+    Title: 'Generating Diverse Structure for Image Inpainting With Hierarchical VQ-VAE'
+    Source: CVPR 2021
+    Code: https://github.com/USTC-JialunPeng/Diverse-Structure-Inpainting.git
+    Paper:  https://arxiv.org/pdf/2103.10022.pdf
+    Pluralistic: True
+    256:
+        Param: 6.035
+        FLOPs: 18.14
+
+ICT:
+    Title: 'High-Fidelity Pluralistic Image Completion with Transformers'
+    Source: ICCV 2021
+    Code: https://github.com/raywzy/ICT.git
+    Paper:  https://arxiv.org/pdf/2103.14031.pdf
+    Pluralistic: True
+    256:
+        Param: 6.035
+        FLOPs: 18.14
+
+
+RFRNet:
+    Title: 'Recurrent Feature Reasoning for Image Inpainting'
+    Source: CVPR 2020
+    Code: https://github.com/jingyuanli001/RFR-Inpainting.git
+    Paper:  https://arxiv.org/pdf/2008.03737.pdf
+    Pluralistic: False
+    256:
+        Param: 31.224
+        FLOPs: 121.32
+
+SKI:
+    Title: 'Learning to Incorporate Structure Knowledge for Image Inpainting'
+    Source: AAAI 2020
+    Code: https://github.com/YoungGod/sturcture-inpainting.git
+    Paper: https://arxiv.org/pdf/2002.04170.pdf
+    Pluralistic: False
+    256:
+        Param: 15.089
+        FLOPs: 155.61
+
+SPL:
+    Title: 'Context-Aware Image Inpainting with Learned Semantic Priors'
+    Source: IJCAI 2021
+    Code: https://github.com/WendongZh/SPL.git
+    Paper: https://arxiv.org/pdf/2106.07220.pdf
+    Pluralistic: False
+    256:
+        Param: 45.597
+        FLOPs: 421.69
+
+
+HiFill:
+    Title: 'Contextual Residual Aggregation for Ultra High-Resolution Image Inpainting'
+    Source: CVPR 2020 Oral
+    Code: https://github.com/Atlas200dk/sample-imageinpainting-HiFill.git
+    Paper: https://arxiv.org/pdf/2005.09704.pdf
+    Pluralistic: False
+    512:
+        Param: 2.72
+        FLOPs: 72.12
+    256:
+        Param: 2.72
+        FLOPs: 18.14
+
+LaMa: 
+    Title: 'Resolution-robust Large Mask Inpainting with Fourier Convolutions'
+    Source: WACV 2022
+    Code: https://github.com/saic-mdal/lama.git
+    Paper: https://arxiv.org/pdf/2109.07161.pdf
+    Pluralistic: False
+    512:
+        Param: 27.05
+        FLOPs: 128.06
+    256:
+        Param: 27.05
+        FLOPs: 59
+
+MAT: 
+    Title: 'MAT: Mask-Aware Transformer for Large Hole Image Inpainting'
+    Source: CVPR 2022 BestPaper FinalList
+    Code: https://github.com/fenglinglwb/MAT.git
+    Paper: https://arxiv.org/pdf/2203.15270.pdf
+    Pluralistic: True
+    512:
+        Param: 61.56
+        FLOPs: 288.78
+    256:
+        Param: 59.78
+        FLOPs: 140.74
+
+MATSTG1:
+    Title: 'MAT: Mask-Aware Transformer for Large Hole Image Inpainting'
+    Source: CVPR 2022 BestPaper FinalList
+    Code: https://github.com/fenglinglwb/MAT.git
+    Paper: https://arxiv.org/pdf/2203.15270.pdf
+    Pluralistic: True
+    512:
+        Param: 61.56
+        FLOPs: 288.78
+    256:
+        Param: 59.78
+        FLOPs: 140.74
+
+MISF: 
+    Title: 'MISF: Multi-level Interactive Siamese Filtering for High-Fidelity Image Inpainting'
+    Source: CVPR 2022
+    Code: https://github.com/tsingqguo/misf.git
+    Paper: https://arxiv.org/pdf/2203.06304.pdf
+    Pluralistic: False
+    512:
+        Param: 61.56
+        FLOPs: 288.78
+    256:
+        Param: 59.78
+        FLOPs: 140.74
+
+WaveFill: 
+    Title: 'WaveFill: A Wavelet-based Generation Network for Image Inpainting'
+    Source: ICCV 2021
+    Code: https://github.com/yingchen001/WaveFill.git
+    Paper: https://arxiv.org/pdf/2107.11027.pdf
+    Pluralistic: False
+    512:
+        Param: 61.56
+        FLOPs: 288.78
+    256:
+        Param: 59.78
+        FLOPs: 140.74
+
+ZITS: 
+    Title: 'Incremental Transformer Structure Enhanced Image Inpainting with Masking Positional Encoding'
+    Source: CVPR 2022
+    Code: https://github.com/DQiaole/ZITS_inpainting.git
+    Paper: https://arxiv.org/pdf/2203.00867.pdf
+    Pluralistic: False
+    512:
+        Param: 61.56
+        FLOPs: 288.78
+    256:
+        Param: 59.78
+        FLOPs: 140.74
+
+CrFill:
+    Title: 'CR-Fill: Generative Image Inpainting with Auxiliary Contextual Reconstruction.'
+    Source: ICCV 2021
+    Code: https://github.com/zengxianyu/crfill
+    Paper: https://arxiv.org/pdf/2011.12836.pdf
+    Pluralistic: False
+    512:
+        Param: 61.56
+        FLOPs: 288.78
+    256:
+        Param: 4
+        FLOPs: 25
+
+LGNet:
+    Title: 'Image Inpainting With Local and Global Refinement'
+    Source: TIP 2022
+    Code: https://github.com/weizequan/LGNet.git
+    Paper: https://weizequan.github.io/TIP2022/Image_Inpainting_with_Local_and_Global_Refinement-compressed.pdf
+    Pluralistic: False
+    512:
+        Param: 61.56
+        FLOPs: 288.78
+    256:
+        Param: 59.78
+        FLOPs: 140.74
+
+TFill:
+    TiTle: 'Bridging Global Context Interactions for High-Fidelity Image Completion'
+    Source: CVPR 2022
+    Code: https://github.com/lyndonzheng/TFill.git
+    Paper: https://arxiv.org/abs/2104.00845
+    Pluralistic: False
+    512:
+        Param: 61.56
+        FLOPs: 288.78
+    256:
+        Param: 59.78
+        FLOPs: 140.74
+
+FcF:
+    Title: 'Keys to Better Image Inpainting: Structure and Texture Go Hand in Hand'
+    Source: WACV 2023
+    Code: https://github.com/SHI-Labs/FcF-Inpainting.git
+    Paper: https://arxiv.org/abs/2208.03382
+    Pluralistic: False
+    512:
+        Param: 61.56
+        FLOPs: 288.78
+    256:
+        Param: 71.91
+        FLOPs: 140.74
+
+MMT:
+    Title: 'Unbiased Multi-Modality Guidance for Image Inpainting'
+    Source: ECCV 2022
+    Code: https://github.com/yeates/MMT.git
+    Paper: https://arxiv.org/pdf/2208.11844v1.pdf
+    Pluralistic: False
+    512:
+        Param: 61.56
+        FLOPs: 288.78
+    256:
+        Param: 59.78
+        FLOPs: 140.74
+
+EFill:
+    Title: 'Towards Efficient Large Mask Inpainting via Knowledge Transfer'
+    Source: ICME 2023
+    Code: https://github.com/Jackieqfh143/EFill.git
+    Paper: https://arxiv.org/pdf/2208.11844v1.pdf
+    Pluralistic: False
+    256:
+        Param: 6
+        FLOPs: 16
+
+
+EFill_WO_ADV:
+    Title: 'Towards Efficient Large Mask Inpainting via Knowledge Transfer'
+    Source: ICME 2023
+    Code: https://github.com/Jackieqfh143/EFill.git
+    Paper: https://arxiv.org/pdf/2208.11844v1.pdf
+    Pluralistic: False
+    512:
+        Param: 61.56
+        FLOPs: 288.78
+    256:
+        Param: 6
+        FLOPs: 16
+
+EFill_WO_IFCB:
+    Title: 'Towards Efficient Large Mask Inpainting via Knowledge Transfer'
+    Source: ICME 2023
+    Code: https://github.com/Jackieqfh143/EFill.git
+    Paper: https://arxiv.org/pdf/2208.11844v1.pdf
+    Pluralistic: False
+    512:
+        Param: 61.56
+        FLOPs: 288.78
+    256:
+        Param: 6
+        FLOPs: 16
+
+EFill_WO_KT_AND_KS:
+    Title: 'Towards Efficient Large Mask Inpainting via Knowledge Transfer'
+    Source: ICME 2023
+    Code: https://github.com/Jackieqfh143/EFill.git
+    Paper: https://arxiv.org/pdf/2208.11844v1.pdf
+    Pluralistic: False
+    512:
+        Param: 61.56
+        FLOPs: 288.78
+    256:
+        Param: 6
+        FLOPs: 16
+
+EFill_WO_LFFC:
+    Title: 'Towards Efficient Large Mask Inpainting via Knowledge Transfer'
+    Source: ICME 2023
+    Code: https://github.com/Jackieqfh143/EFill.git
+    Paper: https://arxiv.org/pdf/2208.11844v1.pdf
+    Pluralistic: False
+    512:
+        Param: 61.56
+        FLOPs: 288.78
+    256:
+        Param: 6
+        FLOPs: 16
+
+EFill_WO_LWGC:
+    Title: 'Towards Efficient Large Mask Inpainting via Knowledge Transfer'
+    Source: ICME 2023
+    Code: https://github.com/Jackieqfh143/EFill.git
+    Paper: https://arxiv.org/pdf/2208.11844v1.pdf
+    Pluralistic: False
+    512:
+        Param: 61.56
+        FLOPs: 288.78
+    256:
+        Param: 6
+        FLOPs: 16
+
+EFill_WO_PERC:
+    Title: 'Towards Efficient Large Mask Inpainting via Knowledge Transfer'
+    Source: ICME 2023
+    Code: https://github.com/Jackieqfh143/EFill.git
+    Paper: https://arxiv.org/pdf/2208.11844v1.pdf
+    Pluralistic: False
+    512:
+        Param: 61.56
+        FLOPs: 288.78
+    256:
+        Param: 6
+        FLOPs: 16
+
+EFill_WO_REC:
+    Title: 'Towards Efficient Large Mask Inpainting via Knowledge Transfer'
+    Source: ICME 2023
+    Code: https://github.com/Jackieqfh143/EFill.git
+    Paper: https://arxiv.org/pdf/2208.11844v1.pdf
+    Pluralistic: False
+    512:
+        Param: 61.56
+        FLOPs: 288.78
+    256:
+        Param: 6
+        FLOPs: 16
+
+EFill_WO_SPADE:
+    Title: 'Towards Efficient Large Mask Inpainting via Knowledge Transfer'
+    Source: ICME 2023
+    Code: https://github.com/Jackieqfh143/EFill.git
+    Paper: https://arxiv.org/pdf/2208.11844v1.pdf
+    Pluralistic: False
+    512:
+        Param: 61.56
+        FLOPs: 288.78
+    256:
+        Param: 6
+        FLOPs: 16
+
+EFill_WO_ATT:
+    Title: 'Towards Efficient Large Mask Inpainting via Knowledge Transfer'
+    Source: ICME 2023
+    Code: https://github.com/Jackieqfh143/EFill.git
+    Paper: https://arxiv.org/pdf/2208.11844v1.pdf
+    Pluralistic: False
+    512:
+        Param: 61.56
+        FLOPs: 288.78
+    256:
+        Param: 6
+        FLOPs: 16
+
+MIGAN:
+    Title: 'MI-GAN: A Simple Baseline for Image Inpainting on Mobile Devices'
+    Source: ICCV 2023
+    Code: https://github.com/Picsart-AI-Research/MI-GAN.git
+    Paper: https://openaccess.thecvf.com/content/ICCV2023/papers/Sargsyan_MI-GAN_A_Simple_Baseline_for_Image_Inpainting_on_Mobile_Devices_ICCV_2023_paper.pdf
+    Pluralistic: False
+    512:
+        Param: 5.98
+        FLOPs: 15.69
+    256:
+        Param: 5.95
+        FLOPs: 11.19
+
+CoordFill:
+    Title: 'CoordFill: Efficient High-Resolution Image Inpainting via Parameterized Coordinate Querying'
+    Source: AAAI 2023
+    Code: https://github.com/NiFangBaAGe/CoordFill.git
+    Paper: https://arxiv.org/abs/2303.08524
+    Pluralistic: False
+    512:
+        Param: 5.98
+        FLOPs: 15.69
+    256:
+        Param: 5.95
+        FLOPs: 11.19
+
+
+
+MobileFill:
+    Title: 'Unknown'
+    Source: Unknown
+    Code: Unknown
+    Paper: Unknown
+    Pluralistic: True
+    512:
+        Param: 8.60
+        FLOPs: 9.23
+    256:
+        Param: 6
+        FLOPs: 8
+
+MobileFill_WITH_MSLOSS:
+    Title: 'Unknown'
+    Source: Unknown
+    Code: Unknown
+    Paper: Unknown
+    Pluralistic: True
+    512:
+        Param: 8.60
+        FLOPs: 9.23
+    256:
+        Param: 8
+        FLOPs: 8
+
+MobileFill_WO_AUG_GEN_BLOCK:
+    Title: 'Unknown'
+    Source: Unknown
+    Code: Unknown
+    Paper: Unknown
+    Pluralistic: True
+    512:
+        Param: 8.60
+        FLOPs: 9.23
+    256:
+        Param: 8
+        FLOPs: 8
+
+MobileFill_WO_GLOBAL_UNIT:
+    Title: 'Unknown'
+    Source: Unknown
+    Code: Unknown
+    Paper: Unknown
+    Pluralistic: True
+    512:
+        Param: 8.60
+        FLOPs: 9.23
+    256:
+        Param: 8
+        FLOPs: 8
+
+MobileFill_WO_LARGE_KERNEL:
+    Title: 'Unknown'
+    Source: Unknown
+    Code: Unknown
+    Paper: Unknown
+    Pluralistic: True
+    512:
+        Param: 8.60
+        FLOPs: 9.23
+    256:
+        Param: 8
+        FLOPs: 8
+
+MobileFill_WO_MOBILEVIT:
+    Title: 'Unknown'
+    Source: Unknown
+    Code: Unknown
+    Paper: Unknown
+    Pluralistic: True
+    512:
+        Param: 8.60
+        FLOPs: 9.23
+    256:
+        Param: 5.72
+        FLOPs: 5.55
+
+MobileFill_WO_STABLE_GEN:
+    Title: 'Unknown'
+    Source: Unknown
+    Code: Unknown
+    Paper: Unknown
+    Pluralistic: True
+    512:
+        Param: 8.60
+        FLOPs: 9.23
+    256:
+        Param: 8
+        FLOPs: 8
+
+MobileFill_WO_KD:
+    Title: 'Unknown'
+    Source: Unknown
+    Code: Unknown
+    Paper: Unknown
+    Pluralistic: True
+    512:
+        Param: 8.60
+        FLOPs: 9.23
+    256:
+        Param: 8
+        FLOPs: 8
+
+MobileFill_ONLY_SSLOSS:
+    Title: 'Unknown'
+    Source: Unknown
+    Code: Unknown
+    Paper: Unknown
+    Pluralistic: True
+    512:
+        Param: 8.60
+        FLOPs: 9.23
+    256:
+        Param: 8
+        FLOPs: 8
+
+MobileFill_ONLY_RAND:
+    Title: 'Unknown'
+    Source: Unknown
+    Code: Unknown
+    Paper: Unknown
+    Pluralistic: True
+    512:
+        Param: 8.60
+        FLOPs: 9.23
+    256:
+        Param: 8
+        FLOPs: 8
+
+MobileFill_ONLY_ADD:
+    Title: 'Unknown'
+    Source: Unknown
+    Code: Unknown
+    Paper: Unknown
+    Pluralistic: True
+    512:
+        Param: 8.60
+        FLOPs: 9.23
+    256:
+        Param: 8
+        FLOPs: 8
+
+MobileFill_ONLY_DROPOUT:
+    Title: 'Unknown'
+    Source: Unknown
+    Code: Unknown
+    Paper: Unknown
+    Pluralistic: True
+    512:
+        Param: 8.60
+        FLOPs: 9.23
+    256:
+        Param: 8
+        FLOPs: 8
+
+
+MobileFill_WITH_COMOD:
+    Title: 'Unknown'
+    Source: Unknown
+    Code: Unknown
+    Paper: Unknown
+    Pluralistic: True
+    512:
+        Param: 8.60
+        FLOPs: 9.23
+    256:
+        Param: 8
+        FLOPs: 8
+
+
+MobileFill_WITH_DROPOUT:
+    Title: 'Unknown'
+    Source: Unknown
+    Code: Unknown
+    Paper: Unknown
+    Pluralistic: True
+    512:
+        Param: 8.60
+        FLOPs: 9.23
+    256:
+        Param: 8
+        FLOPs: 8
+
+MobileFill_WITH_RAND:
+    Title: 'Unknown'
+    Source: Unknown
+    Code: Unknown
+    Paper: Unknown
+    Pluralistic: True
+    512:
+        Param: 8.60
+        FLOPs: 9.23
+    256:
+        Param: 8
+        FLOPs: 8
+
+MobileFill_WITH_AOT:
+    Title: 'Unknown'
+    Source: Unknown
+    Code: Unknown
+    Paper: Unknown
+    Pluralistic: True
+    512:
+        Param: 8.60
+        FLOPs: 9.23
+    256:
+        Param: 8
+        FLOPs: 8
+
+
+MobileFill_WO_STYLE:
+    Title: 'Unknown'
+    Source: Unknown
+    Code: Unknown
+    Paper: Unknown
+    Pluralistic: True
+    512:
+        Param: 8.60
+        FLOPs: 9.23
+    256:
+        Param: 8
+        FLOPs: 8
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+BERT: True
+GELU_2: True
+GPU_ids: '0'
+ckpt_path: ./ckpt
+image_size: 32
+image_url: ''
+mask_url: ''
+n_embd: 256
+n_head: 8
+n_layer: 14
+n_samples: 8
+no_progressive_bar: false
+sample_all: false
+save_url: ./
+skip_number: 0
+top_k: 100

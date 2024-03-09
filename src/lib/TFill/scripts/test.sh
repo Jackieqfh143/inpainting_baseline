@@ -1,0 +1,15 @@
+python ../test.py \
+--name place \
+--img_file /home/codeoops/CV/InPainting/TFill-main/test_imgs/real_imgs \
+--mask_file /home/codeoops/CV/InPainting/TFill-main/test_imgs/masks \
+--results_dir ./results \
+--model tc \
+--coarse_or_refine refine \
+--gpu_id 0 \
+--no_shuffle \
+--batch_size 1 \
+--preprocess scale_shortside \
+--mask_type 3 \
+--load_size 512 \
+--attn_G \
+--add_noise

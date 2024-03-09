@@ -1,0 +1,55 @@
+checkpoints_dir: /gdata/vqvae-inpainting
+commitment_cost: 0.25
+dataset: celebahq
+decay: 0.99
+embedding_dim: 64
+full_model_dir: model_logs/
+image_size: 256
+img_flist: /gdata/test_set/celeba-hq.flist
+mask_flist: /gdata/test_set/mask.flist
+nr_attention_s: 4
+nr_channel_cond_s: 32
+nr_channel_dis_t: 64
+nr_channel_gen_t: 64
+nr_channel_s: 128
+nr_channel_vq: 128
+nr_head_s: 8
+nr_res_block_vq: 2
+nr_res_channel_cond_s: 32
+nr_res_channel_s: 128
+nr_res_channel_vq: 64
+nr_resnet_out_s: 20
+nr_resnet_s: 20
+num_embeddings: 512
+resnet_nonlinearity: concat_elu
+structure_condition_opt:
+  nr_channel: 32
+  nr_res_channel: 32
+  resnet_nonlinearity: concat_elu
+structure_pixelcnn_opt:
+  nr_attention: 4
+  nr_channel: 128
+  nr_head: 8
+  nr_out_resnet: 20
+  nr_res_channel: 128
+  nr_resnet: 20
+  num_embeddings: 512
+  resnet_nonlinearity: concat_elu
+test_num: 10
+texture_discriminator_opt:
+  nr_channel: 64
+texture_generator_opt:
+  nr_channel: 64
+vq_decoder_opt:
+  embedding_dim: 64
+  nr_channel: 128
+  nr_res_block: 2
+  nr_res_channel: 64
+vq_encoder_opt:
+  commitment_cost: 0.25
+  decay: 0.99
+  embedding_dim: 64
+  nr_channel: 128
+  nr_res_block: 2
+  nr_res_channel: 64
+  num_embeddings: 512

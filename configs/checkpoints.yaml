@@ -1,0 +1,233 @@
+AoTGAN:
+    target_size: 512
+    celeba-hq: ./checkpoints/AoTGAN/celeba-hq/G0000000.pt
+    places: ./checkpoints/AoTGAN/place/G0000000.pt
+
+CoModGAN:
+    target_size: 256
+    celeba-hq: ./checkpoints/CoModGAN/celeba-hq/comodgan_256_ffhq.pt
+    places: ./checkpoints/CoModGAN/places/comodgan_256_places2.pt
+
+CrFill:
+    target_size: 256
+    celeba: ./checkpoints/CrFill/celeba/latest_net_G.pth
+    places: ./checkpoints/CrFill/place/places_model/latest_net_G.pth
+
+FcF:
+    target_size: 256
+    celeba-hq: ./checkpoints/FCF/celeba-hq/celeba-hq.pkl
+    places: ./checkpoints/FCF/place/places_512.pkl
+
+HiFill:
+    target_size: 512
+    places: ./checkpoints/HiFill/place/hifill.pb
+
+LaMa:
+    target_size: 256
+    celeba-hq: ./checkpoints/LaMa/lama-celeba-hq/lama-fourier/models/best.ckpt
+    places: ./checkpoints/LaMa/lama-places/lama-fourier/models/best.ckpt
+
+LGNet:
+    target_size: 256
+    celeba-hq: ./checkpoints/LGNet/celeba-hq
+
+MAT:
+    target_size: 256
+    celeba-hq: ./checkpoints/MAT/celeba-hq/CelebA-HQ_256.pkl
+    places: ./checkpoints/MAT/place/Places_512_FullData.pkl
+
+MATSTG1:
+    target_size: 256
+    celeba-hq: ./checkpoints/MAT/celeba-hq/CelebA-HQ_256.pkl
+    places: ./checkpoints/MAT/place/Places_512_FullData.pkl
+
+MIGAN:
+    target_size: 256
+    celeba-hq: ./checkpoints/MIGAN/migan_256_ffhq.pt
+    places: ./checkpoints/MIGAN/migan_512_places2.pt
+
+MISF:
+    target_size: 256
+    celeba: ./checkpoints/MISF/celeba/celebA_InpaintingModel_gen.pth
+    places: ./checkpoints/MISF/place/places2_InpaintingModel_gen.pth
+
+
+MMT:
+    target_size: 256
+    celeba-hq: ./checkpoints/MMT/MMT-CelebAHQ.pth
+
+TFill:
+    target_size: 512
+    celeba-hq: ./checkpoints/TFill/celeba-hq
+    places: ./checkpoints/TFill/place
+
+WaveFill:
+    target_size: 256
+    celeba-hq: ./checkpoints/WaveFill/celeba-hq/latest_net_G.pth
+    places: ./checkpoints/WaveFill/place/latest_net_G.pth
+
+ZITS:
+    target_size: 512
+    places: ./checkpoints/ZITS/place_512
+
+EFill:
+    target_size: 256
+    celeba: ./checkpoints/EFill/celeba/G-step=250000_lr=0.0001_loss=0.2513.pth
+    celeba-hq: ./checkpoints/EFill/celeba-hq/Celeba-hq_best_concat_att.pth
+    places: ./checkpoints/EFill/places/place_best.pth
+
+EFill_WO_ADV:
+    target_size: 256
+    celeba-hq: ./checkpoints/EFill/celeba-hq/wo_gan_loss.pth
+
+EFill_WO_IFCB:
+    target_size: 256
+    celeba-hq: ./checkpoints/EFill/celeba-hq/EFill_wo_lfcb.pth
+
+EFill_WO_KT_AND_KS:
+    target_size: 256
+    celeba-hq: ./checkpoints/EFill/celeba-hq/EFill_wo_l_kt_and_l_ks.pth
+
+EFill_WO_LFFC:
+    target_size: 256
+    celeba-hq: ./checkpoints/EFill/celeba-hq/EFill_wo_lffc.pth
+
+EFill_WO_LWGC:
+    target_size: 256
+    celeba-hq: ./checkpoints/EFill/celeba-hq/EFill_wo_lwgc.pth
+
+EFill_WO_PERC:
+    target_size: 256
+    celeba-hq: ./checkpoints/EFill/celeba-hq/wo_perc_loss.pth
+
+EFill_WO_REC:
+    target_size: 256
+    celeba-hq: ./checkpoints/EFill/celeba-hq/wo_rec_loss.pth
+
+EFill_WO_SPADE:
+    target_size: 256
+    celeba-hq: ./checkpoints/EFill/celeba-hq/EFill_wo_SPADE.pth
+
+EFill_WO_ATT:
+    target_size: 256
+    celeba-hq: ./checkpoints/EFill/celeba-hq/EFill_wo_att.pth
+
+MobileFill:
+    target_size: 256
+    celeba-hq: ./checkpoints/MobileFill/celeba-hq/best
+    places: ./checkpoints/MobileFill/places/G-step=750000_lr=0.0001_ema_loss=0.4912.pth
+
+MobileFill_WITH_MSLOSS:
+    target_size: 256
+    celeba-hq: ./checkpoints/MobileFill/celeba-hq/with_msloss
+
+MobileFill_WO_AUG_GEN_BLOCK:
+    target_size: 256
+    celeba-hq: ./checkpoints/MobileFill/celeba-hq/wo_aug_gen
+
+MobileFill_WO_GLOBAL_UNIT:
+    target_size: 256
+    celeba-hq: ./checkpoints/MobileFill/celeba-hq/wo_global_uint
+
+MobileFill_WO_LARGE_KERNEL:
+    target_size: 256
+    celeba-hq: ./checkpoints/MobileFill/celeba-hq/wo_large_kernel
+
+MobileFill_WO_MOBILEVIT:
+    target_size: 256
+    celeba-hq: ./checkpoints/MobileFill/celeba-hq/wo_vit
+    places: ./checkpoints/MobileFill/places/G-step=750000_lr=0.0001_ema_loss=0.4912.pth
+
+MobileFill_WO_STABLE_GEN:
+    target_size: 256
+    celeba-hq: ./checkpoints/MobileFill/celeba-hq/wo_stable_gen
+
+MobileFill_WO_KD:
+    target_size: 256
+    celeba-hq: ./checkpoints/MobileFill/celeba-hq/wo_kd
+
+MobileFill_ONLY_SSLOSS:
+    target_size: 256
+    celeba-hq: ./checkpoints/MobileFill/celeba-hq/only_ssloss
+
+MobileFill_ONLY_RAND:
+    target_size: 256
+    celeba-hq: ./checkpoints/MobileFill/celeba-hq/only_randmask
+
+MobileFill_ONLY_ADD:
+    target_size: 256
+    celeba-hq: ./checkpoints/MobileFill/celeba-hq/only_add
+
+MobileFill_ONLY_DROPOUT:
+    target_size: 256
+    celeba-hq: ./checkpoints/MobileFill/celeba-hq/only_dropout
+
+MobileFill_WITH_COMOD:
+    target_size: 256
+    celeba-hq: ./checkpoints/MobileFill/celeba-hq/with_comod
+
+MobileFill_WITH_DROPOUT:
+    target_size: 256
+    celeba-hq: ./checkpoints/MobileFill/celeba-hq/dropout_and_ssloss
+
+MobileFill_WITH_RAND:
+    target_size: 256
+    celeba-hq: ./checkpoints/MobileFill/celeba-hq/randmask_ssloss
+
+MobileFill_WITH_AOT:
+    target_size: 256
+    celeba-hq: ./checkpoints/MobileFill/celeba-hq/with_aot
+
+MobileFill_WO_STYLE:
+    target_size: 256
+    celeba-hq: ./checkpoints/MobileFill/celeba-hq/wo_style
+
+
+CoordFill:
+    target_size: 256
+    celeba-hq: ./checkpoints/CoordFill/celeba-hq/celeba-hq.pth
+    places: ./checkpoints/CoordFill/places/place.pth
+
+DeepFillv2:
+    target_size: 256
+    celeba: ./checkpoints/DeepFill_v2/celeba
+    celeba-hq: ./checkpoints/DeepFill_v2/celeba-hq
+    places: ./checkpoints/DeepFill_v2/place
+
+EC:
+    target_size: 256
+    celeba: ./checkpoints/EC/checkpoints/celeba
+    places: ./checkpoints/EC/checkpoints/place
+
+MADF:
+    target_size: 256
+    celeba: ./checkpoints/MADF/celeba/celeba.pth
+    places: ./checkpoints/MADF/place/places2.pth
+
+PIC:
+    target_size: 256
+    celeba: ./checkpoints/PIC/celeba/random
+    places: ./checkpoints/PIC/place/random
+
+DSI:
+    target_size: 256
+    celeba-hq: ./checkpoints/DSI/celeba-hq/random
+    places: ./checkpoints/DSI/place/random
+
+ICT:
+    target_size: 256
+    places: ./checkpoints/ICT/place/Places2_Nature.pth
+
+RFRNet:
+    target_size: 256
+    celeba: ./checkpoints/RFRNet/celeba/checkpoint_celeba.pth
+
+SKI:
+    target_size: 256
+    celeba: ./checkpoints/SKI/celeba/random
+    places: ./checkpoints/SKI/place
+
+SPL:
+    target_size: 256
+    celeba: ./checkpoints/SPL/celeba/Ours_celeba.pt.PT
+    places: ./checkpoints/SPL/place/Ours_places2.pt.PT

@@ -1,0 +1,11 @@
+model:
+  name: gan
+  args:
+    encoder_spec:
+      name: coordfill
+      multi_res_training: true
+      mask_prediction: true
+      attffc: true
+      scale_injection: true
+      args:
+        no_upsampling: true

@@ -1,0 +1,15 @@
+checkpoints/
+demo*/
+gif*/
+*.gif
+debug*.py
+select*/
+dataset/
+results/
+logs/
+hub/
+failure_cases/
+inpainting_demo/
+obj_removal/
+efill*.sh
+mobilefill*.sh
